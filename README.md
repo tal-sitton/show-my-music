@@ -46,4 +46,4 @@ in `/update`, the server will get the current playing track using WINDOWS API (w
 
 ## Images
 
-[screenshot](https://i.imgur.com/mOo0s1w.png)
+![screenshot](https://i.imgur.com/mOo0s1w.png)
