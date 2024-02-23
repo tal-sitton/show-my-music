@@ -43,3 +43,7 @@ dynamically?
 the web page will fetch data from the server every 5 seconds, using the `/update` route
 
 in `/update`, the server will get the current playing track using WINDOWS API (with winsdk package) and return it.
+
+## Images
+
+[screenshot](https://i.imgur.com/mOo0s1w.png)
