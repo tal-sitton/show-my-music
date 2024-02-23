@@ -1,0 +1,72 @@
+:root {
+    --font-color: white;
+    --font-size: 3.5vw;
+    --border-radius: 25px;
+    --backgroud-color: #A68E73;
+    --shadow-color: black;
+    --shadow-width: 3px;
+    --played-color: black;
+    --remained-color: grey;
+    --font: "roboto", "Arial", sans-serif;
+    --bar-border-radius: 10px;
+}
+
+body {
+    overflow: hidden;
+}
+
+h1 {
+    font-size: var(--font-size);
+    font-family: var(--font);
+    color: var(--font-color);
+}
+
+.contain {
+    border-radius: var(--border-radius);
+    display: flex;
+    background-color: var(--backgroud-color);
+    box-shadow: 0 0 0 var(--shadow-width) var(--shadow-color);
+    height: 20vw;
+}
+
+img {
+    border-top-left-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 4%;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.time {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: 1%;
+}
+
+hr {
+    margin: 0;
+    height: 1vw;
+    border: none;
+}
+
+#played {
+    background: var(--played-color);
+    border-bottom-left-radius: var(--bar-border-radius);
+    border-top-left-radius: var(--bar-border-radius);
+}
+
+#remain {
+    background: var(--remained-color);
+    border-bottom-right-radius: var(--bar-border-radius);
+    border-top-right-radius: var(--bar-border-radius);
+}

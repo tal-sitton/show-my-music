@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Playing music</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+<div class="contain">
+    <img id="thumbnail" src="{{ thumbnail }}" alt="thumbnail"/>
+    <div class="info">
+        <h1 id="title">{{ title }}</h1>
+        <div class="time">
+            <hr id="played" style="flex-grow:{{ played }};"/>
+            <hr id="remain" style="flex-grow:{{ remain }};"/>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>
