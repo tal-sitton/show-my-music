@@ -1,0 +1,15 @@
+remote_theme: tuur29/pages-themes-cayman
+title: Show My Music
+description: "show the current playing track on your stream"
+markdown: kramdown
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  
+color:
+  gradient_left: "#eacda3"
+  gradient_right: "#d6ae7b"
+  
+darkmode: true
+syntax_theme: https://stylishthemes.github.io/Syntax-Themes/pygments/css-github/pygments-monokai.css
